@@ -35,7 +35,8 @@ const App = () => (
       <BrowserRouter>
         <ScrollToTop />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<GovLanding />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/presentation" element={<Index />} />
           <Route path="/ravanos" element={<RavanOS />} />
           <Route path="/govos" element={<GovOS />} />

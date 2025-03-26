@@ -23,7 +23,7 @@ const Solve = () => {
     <>
       <Button 
         onClick={() => {
-          navigate('/');
+          navigate('/home');
           scrollToTop();
         }}
         variant="ghost" 

@@ -18,7 +18,7 @@ const Vision = () => {
     <>
       <Button 
         onClick={() => {
-          navigate('/');
+          navigate('/home');
           scrollToTop();
         }}
         variant="ghost" 

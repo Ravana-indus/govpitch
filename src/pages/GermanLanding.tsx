@@ -385,7 +385,7 @@ const GermanLanding = () => {
                   <h3 className="text-xl font-bold mb-1 text-blue-400">Nithish Kumar Suresh</h3>
                   <p className="text-lg font-semibold mb-3 text-purple-400">Chief of User Experience</p>
                   <p className="text-gray-300">
-                  A 3D artist and interactive designer from Hochschule Darmstadt, Nithish blends creativity with tech to craft intuitive and immersive user experiences. With a background in game development and visual design, he ensures Ravan’s platform feels seamless, engaging, and human-centered.
+                  A 3D artist and interactive designer from Hochschule Darmstadt, Nithish blends creativity with tech to craft intuitive and immersive user experiences. With a background in game development and visual design, he ensures Ravan's platform feels seamless, engaging, and human-centered.
                   </p>
                 </div>
               </div>
@@ -462,12 +462,12 @@ const GermanLanding = () => {
         >
           <Button 
             onClick={() => {
-              navigate('/');
+              navigate('/home');
               scrollToTop();
             }}
-            className="bg-gradient-to-r from-blue-500 to-purple-600 hover:opacity-90 transition-opacity px-8 py-6 text-lg shadow-lg flex items-center justify-center gap-2"
+            className="bg-gradient-to-r from-purple-500 to-pink-600 hover:opacity-90 transition-opacity px-8 py-6 text-lg shadow-lg flex items-center justify-center gap-2"
           >
-            <span>Back to Platform Overview</span>
+            <span>Click here to see the detailed pitch</span>
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </Button>
         </motion.div>
@@ -484,7 +484,7 @@ const GermanLanding = () => {
 
         <Button 
           onClick={() => {
-            navigate('/');
+            navigate('/home');
             scrollToTop();
           }}
           variant="ghost" 

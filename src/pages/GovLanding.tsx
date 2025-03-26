@@ -406,7 +406,7 @@ const GovLanding = () => {
         >
           <Button 
             onClick={() => {
-              navigate('/');
+              navigate('/home');
               scrollToTop();
             }}
             className="bg-gradient-to-r from-purple-500 to-pink-600 hover:opacity-90 transition-opacity px-8 py-6 text-lg shadow-lg flex items-center justify-center gap-2"
@@ -428,7 +428,7 @@ const GovLanding = () => {
 
         <Button 
           onClick={() => {
-            navigate('/');
+            navigate('/home');
             scrollToTop();
           }}
           variant="ghost" 

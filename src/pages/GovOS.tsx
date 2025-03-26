@@ -24,7 +24,7 @@ const GovOS = () => {
     <>
       <Button 
         onClick={() => {
-          navigate('/');
+          navigate('/home');
           scrollToTop();
         }}
         variant="ghost" 

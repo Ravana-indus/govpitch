@@ -24,7 +24,7 @@ const RavanOS = () => {
     <>
       <Button 
         onClick={() => {
-          navigate('/');
+          navigate('/home');
           scrollToTop();
         }}
         variant="ghost" 
