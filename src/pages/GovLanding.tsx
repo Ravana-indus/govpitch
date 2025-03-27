@@ -2,7 +2,7 @@ import { useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { motion } from 'framer-motion';
 import { fadeIn, slideUp } from '@/utils/animationUtils';
-import { ArrowRight, Check, TrendingUp, Zap, BarChart, Globe, ArrowLeft } from 'lucide-react';
+import { ArrowRight, Check, TrendingUp, Zap, BarChart, Globe, ArrowLeft, Users } from 'lucide-react';
 import { scrollToTop } from '@/utils/navigationUtils';
 import Vathsan from '../img/vathsan.png';
 
@@ -367,6 +367,23 @@ const GovLanding = () => {
               </div>
             </div>
           </div>
+
+
+          {/* Other Team Members Section */}
+          <div className="mt-8 bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 transition-all duration-300">
+            <div className="flex items-center gap-4">
+              <div className="h-12 w-12 rounded-full bg-gradient-to-br from-blue-500 to-purple-500 flex items-center justify-center flex-shrink-0">
+                <Users className="h-6 w-6 text-white" />
+              </div>
+              <div>
+                <h3 className="text-xl font-bold mb-1 text-blue-400">Our Extended Team</h3>
+                <p className="text-gray-300">
+                  And 16 other team members consist of developers, customer relation officers, creative heads, management, finance and HR staff
+                </p>
+              </div>
+            </div>
+          </div>
+
         </motion.section>
 
         <motion.section
